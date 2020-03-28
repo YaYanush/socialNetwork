@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
     return  <header className="header">
-                Header
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTyb7QgafwDNn1RrFH1HPg9DxrXpwubz9qpneDxi7OfM5_K6ygm" alt=""/>
             </header>;  
 
 }
