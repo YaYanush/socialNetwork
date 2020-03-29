@@ -1,4 +1,5 @@
 import React from 'react';
+import './Content.css';
 
 const Content = () => {
     return  <div className="content">
@@ -15,11 +16,11 @@ const Content = () => {
         <div>
         New posts
         </div>
-      <div>
-        <div>
+      <div className="post">
+        <div className="item">
           Post 1
         </div>
-        <div>
+        <div className="item">
           Post 2
         </div>
         

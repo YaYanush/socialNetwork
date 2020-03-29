@@ -1,0 +1,8 @@
+.nav{
+    max-height: 500px;
+    grid-area: s;
+    background-color: plum;
+  }
+  .item{
+    color: white;
+  }
