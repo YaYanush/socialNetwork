@@ -2,7 +2,11 @@
     max-height: 500px;
     grid-area: s;
     background-color: plum;
-  }
-  .item{
+}
+.item{
     color: blue;
-  }
+}
+
+.item.active{
+    color: #a96707;
+}

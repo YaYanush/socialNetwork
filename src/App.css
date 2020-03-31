@@ -1,28 +1,28 @@
 *{
-  padding: 0;
-  margin: 0   ;
+    padding: 0;
+    margin: 0   ;
 }
 
 .app-wrapper{
-  margin: 0 auto;
-  display: grid;
-  /*grid-template-columns:60% 40%;  /* cколько каждая из колон займет места */
- /* grid-column-gap: 1em; /* отступы между сетками  по вертикали*/ 
-  /*grid-row-gap: 1em; po gorizontali*/ 
-  /*grid-gap: 1em; /* setka po vert i gorizn*/
+    margin: 0 auto;
+    display: grid;
+    /*grid-template-columns:60% 40%;  /* cколько каждая из колон займет места */
+    /* grid-column-gap: 1em; /* отступы между сетками  по вертикали*/
+    /*grid-row-gap: 1em; po gorizontali*/
+    /*grid-gap: 1em; /* setka po vert i gorizn*/
 
- /* grid-template-columns: 1fr 2fr 1fr;  зтри блока займут такое кол-во фракций */
+    /* grid-template-columns: 1fr 2fr 1fr;  зтри блока займут такое кол-во фракций */
 
- /* grid-auto-rows: 200px; /* высота для всех блоков */
-  width: 150vh;
-  height: 100vh;
-  grid-template-columns: 1fr 4fr;
-  grid-template-rows: 1fr 10fr;
-  grid-gap: 10px;
-   grid-template-areas:
-      "h h"
-      "s c"
-      "s c"     ;
+    /* grid-auto-rows: 200px; /* высота для всех блоков */
+    width: 150vh;
+    height: 100%;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 10fr;
+    grid-gap: 10px;
+    grid-template-areas:
+            "h h"
+            "s c"
+            "s c"     ;
 
 }
 

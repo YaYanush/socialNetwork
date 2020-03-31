@@ -3,7 +3,7 @@ import s from './Nav.module.css';
 
 const Nav = () => {
     return <nav className={s.nav}>
-        <div className={s.item}>
+        <div className={`${s.item} ${s.active}`}>
             <a>Profile</a>
         </div>
         <div className={s.item}>
@@ -12,7 +12,7 @@ const Nav = () => {
         <div className={s.item}>
             <a>News</a>
         </div>
-        <div className={s.item}>
+        <div className={`${s.item} ${s.active}`}>
             <a>Music</a>
         </div>
     </nav>

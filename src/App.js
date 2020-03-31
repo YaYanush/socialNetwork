@@ -1,20 +1,19 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
-import Nav from './components/Nav';
-import Content from './components/Content';
-
+import Header from './components/header/Header';
+import Nav from './components/nav/Nav';
+import Content from "./components/content/Content";
 
 const App = () => {
-  return (
-    <div className='app-wrapper'>
-      <Header />
-      <Nav />
-      <Content />
-    </div>
-  );
-}
+    return (
+        <div className='app-wrapper'>
+            <Header />
+            <Nav />
+            <Content />
+        </div>
+    );
+};
 
 
 
